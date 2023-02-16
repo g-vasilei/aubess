@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import data from '../Products/data'
+import { categoryValue } from '../utils/category'
 
 function Product() {
    const params = useParams()
