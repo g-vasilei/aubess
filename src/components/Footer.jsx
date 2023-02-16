@@ -66,18 +66,15 @@ function Footer() {
             <div>
                <h3 className='text-xl font-bold text-gray-700'>Apps</h3>
                <div className='flex-col items-center justify-start gap-y-2.5'>
-                  <Link
-                     to='https://play.google.com/store/apps/details?id=com.tuya.smart'
+                  <a
+                     href='https://play.google.com/store/apps/details?id=com.tuya.smart'
                      className='flex items-center gap-x-2 mt-4'
                   >
                      <FaGooglePlay /> Tuya App
-                  </Link>
-                  <Link
-                     to='https://apps.apple.com/us/app/tuya-smart/id1034649547'
-                     className='flex items-center gap-x-2'
-                  >
+                  </a>
+                  <a href='https://apps.apple.com/us/app/tuya-smart/id1034649547' className='flex items-center gap-x-2'>
                      <GrAppleAppStore /> Tuya App
-                  </Link>
+                  </a>
                </div>
             </div>
          </div>
