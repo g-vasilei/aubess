@@ -45,17 +45,17 @@ function Contact() {
                Email us here: info@aubess.eu
             </p>
             <form ref={form} onSubmit={sendEmail}>
-               <input type='text' name='name' id='' placeholder='Όνομα' className='w-full h-10 mb-5 px-2 rounded-sm' />
+               <input type='text' name='name' id='' placeholder='Name' className='w-full h-10 mb-5 px-2 rounded-sm' />
                <input type='mail' name='email' id='' placeholder='email' className='w-full h-10 mb-5 px-2 rounded-sm' />
                <input
                   type='text'
                   name='message'
                   id=''
-                  placeholder='Μήνυμα'
+                  placeholder='Message'
                   className='w-full h-32  mb-5  px-2 rounded-sm'
                />
                <button type='submit' className='flex items-center gap-x-2 px-4 py-2 bg-[#464C4F] text-white rounded-sm'>
-                  Αποστολή <BiMailSend size={18} />
+                  Send <BiMailSend size={18} />
                </button>
             </form>
             {emailStatus === 'Success' && (
