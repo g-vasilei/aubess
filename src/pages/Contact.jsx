@@ -40,9 +40,6 @@ function Contact() {
                If you have any questions or problems, please feel free to contact us. <br />
                <br />
                <br /> We will reply to help and resolve the issue as soon as possible.
-               <br /> <br />
-               <br />
-               Email us here: info@aubess.eu
             </p>
             <form ref={form} onSubmit={sendEmail}>
                <input type='text' name='name' id='' placeholder='Name' className='w-full h-10 mb-5 px-2 rounded-sm' />
