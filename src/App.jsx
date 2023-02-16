@@ -51,10 +51,6 @@ function App() {
                element: <AboutUs />,
             },
             {
-               path: '/warranty-and-rma',
-               element: <WarrantyAndRMA />,
-            },
-            {
                path: '*',
                element: <NotFound />,
             },
