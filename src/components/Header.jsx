@@ -16,8 +16,8 @@ function Header() {
    }
 
    return (
-      <header className='bg-white'>
-         <div className='flex items-center place-content-between px-2 md:px-8 xl:px-0 max-w-7xl xl:mx-auto py-5 relative text-lg'>
+      <header className='bg-white z-50'>
+         <div className='flex items-center place-content-between px-2 md:px-8 xl:px-0 max-w-7xl xl:mx-auto py-5 relative text-lg z-50'>
             <div>
                <Link to='/'>
                   <img className='w-28 object-contain cursor-pointer' src={logo} alt='e-zy logo' />
