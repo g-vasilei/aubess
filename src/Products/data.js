@@ -147,6 +147,7 @@ const data = {
             'https://www.aerial.net/shop/imageslarge/TZWG1_3d.jpg',
             'https://www.aerial.net/shop/imageslarge/TZWG1_top.jpg',
             'https://www.aerial.net/shop/imageslarge/TZWG1_dexc.jpg',
+            'https://www.aerial.net/shop/imageslarge/TZWG1_dims.jpg',
          ],
          seoTitle: 'TZWG1 | AUBESS.eu',
          seoDescription: 'TZWG1 - Tuya Zigbee 3.0 Gateway, WiFi ZigBee Hub/Bridge',
@@ -199,30 +200,6 @@ const data = {
             'https://www.aerial.net/shop/imageslarge/TZSW101G_connect.jpg',
             'https://www.aerial.net/shop/imageslarge/TZSW101G_rear.jpg',
             'https://www.aerial.net/shop/imageslarge/TZSW101G_dims.jpg',
-         ],
-         seoTitle: 'TZSW101G | AUBESS.eu',
-         seoDescription: 'TZSW101G - Tuya ZigBee 10A Smart Switch - 1 Channel, with Neutral',
-      },
-      {
-         id: 9,
-         title: 'TZWG1 - Tuya Zigbee 3.0 Gateway, WiFi ZigBee Hub/Bridge',
-         description: `TZWG1 - Tuya Zigbee 3.0 Gateway, WiFi ZigBee Hub/Bridge - connects up to 30 ZigBee devices
-
-         ZigBee 3.0 Wireless Gateway WiFi ZigBee Hub Bridge 
-         
-         This Gateway ZigBee 3.0 WiFi 2.4G is a control unit that can be connected to all Smart ZigBee products (such as sensors, lights, switches etc. with a maximum of 30 units).
-         
-         Built-in Wi-Fi module and Zigbee module, so that ZigBee devices can be controlled via WiFi via the TUYA app or controlled locally via the ZigBee network.
-         
-         Use the smartphone to remotely control the entire Zigbee system. Excellent performance, stable and reliable with a slim design.`,
-         slug: 'TZWG1',
-         category: 'Gateway',
-         category_slug: 'gateway',
-         img: [
-            'https://www.aerial.net/shop/imageslarge/TZWG1_main.jpg',
-            'https://www.aerial.net/shop/imageslarge/TZWG1_3d.jpg',
-            'https://www.aerial.net/shop/imageslarge/TZWG1_top.jpg',
-            'https://www.aerial.net/shop/imageslarge/TZWG1_dexc.jpg',
          ],
          seoTitle: 'TZSW101G | AUBESS.eu',
          seoDescription: 'TZSW101G - Tuya ZigBee 10A Smart Switch - 1 Channel, with Neutral',

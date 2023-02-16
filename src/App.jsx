@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import AboutUs from './pages/AboutUs'
 import WarrantyAndRMA from './pages/WarrantyAndRMA'
 import Category from './pages/Category'
+import NotFound from './pages/NotFound'
 
 function App() {
    const Layout = () => {
@@ -52,6 +53,10 @@ function App() {
             {
                path: '/warranty-and-rma',
                element: <WarrantyAndRMA />,
+            },
+            {
+               path: '*',
+               element: <NotFound />,
             },
          ],
       },
