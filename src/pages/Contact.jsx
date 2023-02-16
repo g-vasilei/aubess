@@ -29,7 +29,7 @@ function Contact() {
          )
       }
 
-      //e.target.reset()
+      e.target.reset()
    }
 
    return (
