@@ -17,7 +17,7 @@ function Contact() {
          setEmailStatus('Fill')
          return
       } else {
-         emailjs.sendForm('service_izwud4a', 'template_vuyqtzm', form.current, 'mpgmiDMS9F7kikHVv').then(
+         emailjs.sendForm('service_zwkcupi', 'template_zcwy2if', form.current, 'HCrPDuuCMFeWiDyW6').then(
             (result) => {
                setEmailStatus('Success')
                console.log(result)
@@ -29,7 +29,7 @@ function Contact() {
          )
       }
 
-      e.target.reset()
+      //e.target.reset()
    }
 
    return (
