@@ -6,7 +6,6 @@ import Products from './pages/Products'
 import Product from './pages/Product'
 import Contact from './pages/Contact'
 import AboutUs from './pages/AboutUs'
-import WarrantyAndRMA from './pages/WarrantyAndRMA'
 import Category from './pages/Category'
 import NotFound from './pages/NotFound'
 
