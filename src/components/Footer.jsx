@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaGooglePlay } from 'react-icons/fa'
+import { GrAppleAppStore } from 'react-icons/gr'
 
 function Footer() {
    const today = new Date()
@@ -11,7 +13,7 @@ function Footer() {
             items-start
             grid-cols-1
             md:grid-cols-2
-            xl:grid-cols-4
+            xl:grid-cols-3
             gap-10
             px-2
             md:px-8
@@ -25,48 +27,28 @@ function Footer() {
                <h3 className='text-xl font-bold text-gray-700'>Categories</h3>
                <ul className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Antenna 2.4Ghz
+                     <Link to='/category/smart-diy-switch' className='hover:text-gray-900'>
+                        Smart DIY Switch
                      </Link>
                   </li>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Antenna 5.xGHz
+                     <Link to='/category/smart-plug' className='hover:text-gray-900'>
+                        Smart Plug
                      </Link>
                   </li>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        PoE
+                     <Link to='/category/smart-sensor' className='hover:text-gray-900'>
+                        Smart Sensor
                      </Link>
                   </li>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Power Supply
+                     <Link to='/category/smart-switch' className='hover:text-gray-900'>
+                        Smart Switch
                      </Link>
                   </li>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Coaxial
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Accessories
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Connector
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Pigtail
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Adapter
+                     <Link to='/category/gateway' className='hover:text-gray-900'>
+                        Gateway
                      </Link>
                   </li>
                </ul>
@@ -75,54 +57,28 @@ function Footer() {
                <h3 className='text-xl font-bold text-gray-700'>Links</h3>
                <ul className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
                   <li>
-                     <Link to='#' className='hover:text-gray-900'>
+                     <Link to='contact' className='hover:text-gray-900'>
                         Contact
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Warranty and RMA
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        About Us
-                     </Link>
-                  </li>
-                  <li>
-                     <Link to='#' className='hover:text-gray-900'>
-                        Calculations
                      </Link>
                   </li>
                </ul>
             </div>
-            {/* <div className='inline-flex justify-center items-center'>
-               <div className='flex-col text-start'>
-                  <h3 className='text-xl font-bold text-gray-700'>Links</h3>
-                  <ul className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
-                     <li>Contact</li>
-                     <li>Warranty and RMA</li>
-                     <li>About Us</li>
-                     <li>Calculations</li>
-                  </ul>
+            <div>
+               <h3 className='text-xl font-bold text-gray-700'>Apps</h3>
+               <div className='flex-col items-center justify-start gap-y-2.5'>
+                  <Link
+                     to='https://play.google.com/store/apps/details?id=com.tuya.smart'
+                     className='flex items-center gap-x-2 mt-4'
+                  >
+                     <FaGooglePlay /> Tuya App
+                  </Link>
+                  <Link
+                     to='https://apps.apple.com/us/app/tuya-smart/id1034649547'
+                     className='flex items-center gap-x-2'
+                  >
+                     <GrAppleAppStore /> Tuya App
+                  </Link>
                </div>
-            </div> */}
-            <div>
-               <h3 className='text-xl font-bold text-gray-700'>About Us</h3>
-               <p className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
-                  e-zy.net designs and manufactures both short and long range high speed wireless communications
-                  products. The company's indoor and outdoor WLAN products are standards based to insure
-                  interoperability. Headquartered in Hong Kong, e-zy.net also has offices and warehouse facilities in
-                  Europe, the USA and representatives worldwide.
-               </p>
-            </div>
-            <div>
-               <h3 className='text-xl font-bold text-gray-700'>Contact</h3>
-               <p className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
-                  Room 304 Dominion Center
-                  <br /> 43 Queens Rd East,
-                  <br /> Wan Chai Hong Kong
-               </p>
             </div>
          </div>
          <div
@@ -137,7 +93,7 @@ function Footer() {
             mx-auto
             font-semibold'
          >
-            e-zy.net © Copyright {year}. All right reserved{' '}
+            aubess.eu © Copyright {year}. All right reserved{' '}
          </div>
       </footer>
    )

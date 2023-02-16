@@ -46,7 +46,10 @@ function Slider() {
    return (
       <>
          <div className='h-[700px] w-screen relative overflow-hidden'>
-            <div className='w-[300vw] flex h-full' style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
+            <div
+               className='w-[300vw] flex h-full ease-in duration-700 transition-transform	'
+               style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+            >
                <div
                   className='relative w-screen h-full object-cover bg-center bg-cover'
                   style={{ backgroundImage: `url(${data[0].img})` }}

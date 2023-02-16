@@ -49,61 +49,61 @@ function Header() {
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/smart-diy-switch')
+                     pathMatchRoute('/category/smart-diy-switch')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer '
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/smart-diy-switch' className='text-base font-medium'>
+                  <Link to='/category/smart-diy-switch' className='text-base font-medium'>
                      Smart DIY Switch
                   </Link>
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/smart-plug')
+                     pathMatchRoute('/category/smart-plug')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer transition-all duration-200 ease-in'
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/smart-plug' className='text-base font-medium'>
+                  <Link to='/category/smart-plug' className='text-base font-medium'>
                      Smart Plug
                   </Link>
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/smart-sensor')
+                     pathMatchRoute('/category/smart-sensor')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer transition-all duration-200 ease-in'
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/smart-sensor' className='text-base font-medium'>
+                  <Link to='/category/smart-sensor' className='text-base font-medium'>
                      Smart Sensor
                   </Link>
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/smart-switch')
+                     pathMatchRoute('/category/smart-switch')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer transition-all duration-200 ease-in'
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/smart-switch' className='text-base font-medium'>
+                  <Link to='/category/smart-switch' className='text-base font-medium'>
                      Smart Switch
                   </Link>
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/gateway')
+                     pathMatchRoute('/category/gateway')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer transition-all duration-200 ease-in'
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/gateway' className='text-base font-medium'>
+                  <Link to='/category/gateway' className='text-base font-medium'>
                      Gateway
                   </Link>
                </h3>

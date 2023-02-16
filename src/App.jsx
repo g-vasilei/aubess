@@ -34,7 +34,7 @@ function App() {
                element: <Products />,
             },
             {
-               path: '/category/:id',
+               path: '/category/:cat_slug',
                element: <Category />,
             },
             {

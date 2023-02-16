@@ -14,6 +14,7 @@ const data = {
             It can connect with Amazon Alexa and Google Assistant voice platform.`,
          slug: 'TZTH1',
          category: 'Smart DIY Switch',
+         category_slug: 'smart-diy-switch',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZTH1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TZTH1_front.jpg',
@@ -38,6 +39,7 @@ const data = {
            It can connect with Amazon Alexa and Google Assistant voice platform.`,
          slug: 'TZTH1',
          category: 'Smart Plug',
+         category_slug: 'smart-plug',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZTH1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TZTH1_front.jpg',
@@ -62,6 +64,7 @@ const data = {
            It can connect with Amazon Alexa and Google Assistant voice platform.`,
          slug: 'TZTH1',
          category: 'Smart Sensor',
+         category_slug: 'smart-sensor',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZTH1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TZTH1_front.jpg',
@@ -86,6 +89,7 @@ const data = {
            It can connect with Amazon Alexa and Google Assistant voice platform.`,
          slug: 'TZTH1',
          category: 'Smart Switch',
+         category_slug: 'smart-switch',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZTH1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TZTH1_front.jpg',
@@ -110,6 +114,7 @@ const data = {
            It can connect with Amazon Alexa and Google Assistant voice platform.`,
          slug: 'TZTH1',
          category: 'Gateway',
+         category_slug: 'gateway',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZTH1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TZTH1_front.jpg',
