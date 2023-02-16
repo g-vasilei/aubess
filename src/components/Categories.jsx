@@ -89,7 +89,7 @@ function Categories() {
                      </div>
                   </div>
                </Link>
-               <Link to='/category/smart-switch' className='group'>
+               <Link to='/category/ir-remote-controller' className='group'>
                   <div className=' py-6'>
                      <div className='w-100 bg-white overflow-hidden'>
                         <img
@@ -99,7 +99,8 @@ function Categories() {
                      </div>
                      <div className='px-5 mt-3 text-center'>
                         <h3 className='flex items-center justify-center gap-x-5'>
-                           Smart Switch <BsArrowRight className='group-hover:translate-x-2 ease-in duration-300' />
+                           IR Remote Controller{' '}
+                           <BsArrowRight className='group-hover:translate-x-2 ease-in duration-300' />
                         </h3>
                      </div>
                   </div>

@@ -40,7 +40,7 @@ const data = {
          
          The switch works with Google Home and Amazon Alexa voice assistants.`,
          slug: 'TWSW161G',
-         category: 'Smart Switch',
+         category: 'Smart DIY Switch',
          category_slug: 'smart-diy-switch',
          img: [
             'https://www.aerial.net/shop/imageslarge/TWSW161G_main.jpg',
@@ -90,7 +90,7 @@ const data = {
          
          The switch works with Google Home and Amazon Alexa voice assistants.`,
          slug: 'TWSW161P',
-         category: 'Smart Switch',
+         category: 'Smart DIY Switch',
          category_slug: 'smart-diy-switch',
          img: [
             'https://www.aerial.net/shop/imageslarge/TWSW161P_main.jpg',
@@ -115,8 +115,8 @@ const data = {
          
          Works with Amazon Alexa, Google Assistant, Siri(iOS 12.0 or later), etc.`,
          slug: 'TWRC1',
-         category: 'Gateway',
-         category_slug: 'gateway',
+         category: 'IR Remote Controller',
+         category_slug: 'ir-remote-controller',
          img: [
             'https://www.aerial.net/shop/imageslarge/TWRC1_main.jpg',
             'https://www.aerial.net/shop/imageslarge/TWRC1_3d.jpg',
@@ -192,7 +192,7 @@ const data = {
          
          A ZIGBEE GATEWAY and the Tuya Smart or Smart Life application are required for operation. `,
          slug: 'TZSW101G',
-         category: 'Smart Switch',
+         category: 'Smart DIY Switch',
          category_slug: 'smart-diy-switch',
          img: [
             'https://www.aerial.net/shop/imageslarge/TZSW101G_main.jpg',

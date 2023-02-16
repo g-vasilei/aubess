@@ -6,8 +6,8 @@ export const categoryValue = (catergory_slug) => {
       return 'Smart Plug'
    } else if (catergory_slug === 'smart-sensor') {
       return 'Smart Sensor'
-   } else if (catergory_slug === 'smart-switch') {
-      return 'Smart Switch'
+   } else if (catergory_slug === 'IR Remote Controller') {
+      return 'IR Remote Controller'
    } else {
       return 'Gateway'
    }

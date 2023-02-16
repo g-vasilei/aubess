@@ -85,14 +85,14 @@ function Header() {
                </h3>
                <h3
                   className={
-                     pathMatchRoute('/category/smart-switch')
+                     pathMatchRoute('/category/ir-remote-controller')
                         ? 'bg-[#464C4F] text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer'
                         : 'text-slate-100 md:text-gray-500 hover:bg-[#b2b8bb] hover:text-white px-3 py-2 rounded-sm text-sm font-medium cursor-pointer transition-all duration-200 ease-in'
                   }
                   onClick={() => setIsOpen((prevState) => !prevState)}
                >
-                  <Link to='/category/smart-switch' className='text-base font-medium'>
-                     Smart Switch
+                  <Link to='/category/ir-remote-controller' className='text-base font-medium'>
+                     IR Remote Controller
                   </Link>
                </h3>
                <h3

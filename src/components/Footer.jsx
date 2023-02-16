@@ -42,8 +42,8 @@ function Footer() {
                      </Link>
                   </li>
                   <li>
-                     <Link to='/category/smart-switch' className='hover:text-gray-900'>
-                        Smart Switch
+                     <Link to='/category/ir-remote-controller' className='hover:text-gray-900'>
+                        IR Remote Controller
                      </Link>
                   </li>
                   <li>
