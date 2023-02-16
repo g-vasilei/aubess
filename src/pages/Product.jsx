@@ -40,7 +40,7 @@ function Product() {
                      Products
                   </Link>{' '}
                   {'>'}{' '}
-                  <Link to={`/products/${product.category_slug}`} className='hover:text-[#464C4F]'>
+                  <Link to={`/category/${product.category_slug}`} className='hover:text-[#464C4F]'>
                      {categoryValue(product.category_slug)}
                   </Link>
                   <span className='text-gray-600'>{data?.attributes?.title}</span>
