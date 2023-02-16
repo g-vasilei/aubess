@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { useState } from 'react'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { RiErrorWarningLine } from 'react-icons/ri'
+import { Helmet } from 'react-helmet-async'
 
 function Contact() {
    const form = useRef()
@@ -33,6 +34,12 @@ function Contact() {
 
    return (
       <>
+         <Helmet>
+            <title>Contact | aubess.eu</title>
+            <meta name='description' content='Contact us' />
+            <link rel='cononical' href='/contact' />
+         </Helmet>
+
          <h2 className='text-5xl font-bold text-center bg-[#EBECED] text-[#103948] py-10 mt-5'>Contact Us</h2>
 
          <div className='max-w-2xl px-2 md:px-8 xl:px-0 xl:mx-auto my-10 xl:my-0 pb-16'>

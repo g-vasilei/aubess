@@ -31,8 +31,8 @@ function Header() {
                )}
             </div>
             <nav
-               className={`transition-all ease-in-out duration-300 absolute w-screen h-screen flex flex-col items-center justify-center gap-4 bg-[#464C4F]  
-               ${isOpen ? 'left-0 top-0' : '-left-full top-0'} 
+               className={`transition-all ease-in-out duration-300 fixed w-screen h-screen flex flex-col items-center justify-center gap-4 bg-[#464C4F]  
+               ${isOpen ? 'left-0 top-0 fixed' : '-left-full top-0'} 
                md:inline-flex md:relative md:w-fit md:h-fit md:flex-row md:bg-transparent md:left-auto md:space-x-5`}
             >
                <h3

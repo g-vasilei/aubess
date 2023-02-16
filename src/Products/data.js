@@ -204,6 +204,29 @@ const data = {
          seoTitle: 'TZSW101G | AUBESS.eu',
          seoDescription: 'TZSW101G - Tuya ZigBee 10A Smart Switch - 1 Channel, with Neutral',
       },
+      {
+         id: 9,
+         title: 'TWSP1 - Tuya WiFi Smart Plug, Energy Monitor',
+         description: `The device with an elegant design has been studied so as not to disturb the internal environment in which it must be placed.
+
+         This Smart Plug is equipped with the latest designed technology with an emphasis on maximum reliability, simplicity and sensitivity.
+         
+         The application allows you to monitor the operation of the relay, even when using the traditional method.In the application, we can set a weekly work schedule for the device.
+         
+         The switch works with Google Home and Amazon Alexa voice assistants.`,
+         slug: 'TWSP1',
+         category: 'Smart Plug',
+         category_slug: 'smart-plug',
+         img: [
+            'https://www.aerial.net/shop/imageslarge/TWSP1_main.jpg',
+            'https://www.aerial.net/shop/imageslarge/TWSP1_socket.jpg',
+            'https://www.aerial.net/shop/imageslarge/TWSP1_plug.jpg',
+            'https://www.aerial.net/shop/imageslarge/TWSP1_power.jpg',
+            'https://www.aerial.net/shop/imageslarge/TWSP1_dims.jpg',
+         ],
+         seoTitle: 'TWSP1 | AUBESS.eu',
+         seoDescription: 'TWSP1 - Tuya WiFi Smart Plug, Energy Monitor',
+      },
    ],
 }
 
