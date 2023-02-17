@@ -19,9 +19,9 @@ function Product() {
    return (
       <>
          <Helmet>
-            <title>{product?.title}</title>
+            {/* <title>{product?.title}</title>
             <meta name='description' content={`${product?.description} | aubess.eu`} />
-            <link rel='cononical' href={`/product/${product?.slug}`} />
+            <link rel='cononical' href={`/product/${product?.slug}`} /> */}
             {/* <meta property='og:title' content={product?.title} />
         <meta
           property='og:description'
