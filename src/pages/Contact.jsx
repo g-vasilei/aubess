@@ -63,21 +63,24 @@ function Contact() {
                   Send <BiMailSend size={18} />
                </button>
             </form>
-            {emailStatus === 'Success' && (
-               <div className='bg-lime-600 rounded-sm mt-5 px-4 flex items-center gap-4 text-white py-1'>
-                  <BsFillCheckCircleFill fill='#fff' /> Email was send
-               </div>
-            )}
-            {emailStatus === 'Fill' && (
-               <div className='bg-orange-300 rounded-sm mt-5 px-4 flex items-center gap-4 text-white py-1 '>
-                  <RiErrorWarningLine /> Please fill all fields
-               </div>
-            )}
-            {emailStatus === 'Fail' && (
-               <div className='bg-red-700 rounded-sm mt-5 px-4 flex items-center gap-4 text-white py-1'>
-                  <RiErrorWarningLine /> There was an error, please try again later
-               </div>
-            )}
+
+            <div className='min-h-[40px] min-w-full mt-5 '>
+               {emailStatus === 'Success' && (
+                  <div className='bg-lime-600 rounded-sm px-4 flex items-center gap-4 text-white py-1 transition-all animate-[comeFromTop_0.3s_ease-in-out]'>
+                     <BsFillCheckCircleFill fill='#fff' /> Email was send
+                  </div>
+               )}
+               {emailStatus === 'Fill' && (
+                  <div className='bg-orange-300 rounded-sm px-4 flex items-center gap-4 text-white py-1 transition-all animate-[comeFromTop_0.3s_ease-in-out]'>
+                     <RiErrorWarningLine /> Please fill all fields
+                  </div>
+               )}
+               {emailStatus === 'Fail' && (
+                  <div className='bg-red-700 rounded-sm px-4 flex items-center gap-4 text-white py-1 transition-all animate-[comeFromTop_0.3s_ease-in-out]'>
+                     <RiErrorWarningLine /> There was an error, please try again later
+                  </div>
+               )}
+            </div>
          </div>
          <ScrollRestoration />
       </>
