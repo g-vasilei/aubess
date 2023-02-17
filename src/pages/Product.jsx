@@ -48,7 +48,7 @@ function Product() {
         />
         <meta
           property='og:image'
-          content={`https://aubess.eu/${imageSEO}`}
+          content='https://aubess.eu/slide-1.png'
         ></meta>
 
         {/* <!-- Twitter --> */}
@@ -64,7 +64,7 @@ function Product() {
         ></meta>
         <meta
           property='twitter:image'
-          content={`https://aubess.eu/${imageSEO}`}
+          content='https://aubess.eu/slide-1.png'
         ></meta>
       </Helmet>
 
