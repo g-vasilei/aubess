@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import data from '../Products/data';
 import { categoryValue } from '../utils/category';
 import { Helmet } from 'react-helmet-async';
+import imageSEO from '../assets/slider/slide-1';
 
 function Product() {
   const params = useParams();
@@ -31,10 +32,7 @@ function Product() {
           property='og:description'
           content={`${product?.description} | aubess.eu`}
         />
-        <meta
-          property='og:image'
-          content={product.img && `${product?.img[0]}`}
-        />
+        <meta property='og:image' content={`https://aubess.eu/${imageSEO}`} />
         <meta property='og:url' content={`/product/${product?.slug}`} />
       </Helmet>
 
