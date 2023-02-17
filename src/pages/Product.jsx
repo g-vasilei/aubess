@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import data from '../Products/data'
 import { categoryValue } from '../utils/category'
 import { Helmet } from 'react-helmet-async'
-import imageSEO from '../assets/slider/slide-1.png'
+import { ScrollRestoration } from 'react-router-dom'
 
 function Product() {
    const params = useParams()
@@ -60,6 +60,7 @@ function Product() {
                <p className='pt-10'>{product?.description}</p>
             </div>
          </div>
+         <ScrollRestoration />
       </>
    )
 }

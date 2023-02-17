@@ -3,6 +3,7 @@ import Categories from '../components/Categories'
 import HotSell from '../components/HotSell'
 import Slider from '../components/Slider'
 import { Helmet } from 'react-helmet-async'
+import { ScrollRestoration } from 'react-router-dom'
 
 function Home() {
    return (
@@ -21,6 +22,7 @@ function Home() {
             <HotSell />
             <Categories />
          </div>
+         <ScrollRestoration />
       </>
    )
 }

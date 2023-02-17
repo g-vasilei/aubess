@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import data from '../Products/data'
 import { categoryValue } from '../utils/category'
 import { Helmet } from 'react-helmet-async'
+import { ScrollRestoration } from 'react-router-dom'
 
 function Category() {
    const params = useParams()
@@ -40,6 +41,7 @@ function Category() {
                )}
             </div>
          </div>
+         <ScrollRestoration />
       </>
    )
 }

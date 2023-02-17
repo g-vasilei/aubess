@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { RiErrorWarningLine } from 'react-icons/ri'
 import { Helmet } from 'react-helmet-async'
+import { ScrollRestoration } from 'react-router-dom'
 
 function Contact() {
    const form = useRef()
@@ -78,6 +79,7 @@ function Contact() {
                </div>
             )}
          </div>
+         <ScrollRestoration />
       </>
    )
 }

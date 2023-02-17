@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import data from '../Products/data'
+import { ScrollRestoration } from 'react-router-dom'
 
 function Products() {
    const { products } = data
@@ -33,6 +34,7 @@ function Products() {
                ))}
             </div>
          </div>
+         <ScrollRestoration />
       </>
    )
 }
