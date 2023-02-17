@@ -38,7 +38,7 @@ function Product() {
         <meta property='og:type' content='website' />
         <meta
           property='og:url'
-          content={`https://aubess.eu/product/${product?.slug}`}
+          content={`https://aubess.eu/product${product?.slug}`}
         />
         <meta property='og:title' content={product.title} />
         <meta
