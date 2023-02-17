@@ -27,13 +27,28 @@ function Product() {
           content={`${product?.description} | aubess.eu`}
         />
         <link rel='cononical' href={`/product/${product?.slug}`} />
-        <meta property='og:title' content={product?.title} />
+        {/* <meta property='og:title' content={product?.title} />
         <meta
           property='og:description'
           content={`${product?.description} | aubess.eu`}
         />
         <meta property='og:image' content={`https://aubess.eu/${imageSEO}`} />
-        <meta property='og:url' content={`/product/${product?.slug}`} />
+        <meta property='og:url' content={`/product/${product?.slug}`} /> */}
+
+        <meta property='og:type' content='website' />
+        <meta
+          property='og:url'
+          content={`https://aubess.eu/product/${product?.slug}`}
+        />
+        <meta property='og:title' content={product.title} />
+        <meta
+          property='og:description'
+          content='With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!'
+        />
+        <meta
+          property='og:image'
+          content={`https://aubess.eu/${imageSEO}`}
+        ></meta>
       </Helmet>
 
       <div className='px-2 md:px-8 xl:px-0 xl:pt-10 max-w-7xl xl:mx-auto grid grid-cols-1 md:grid-cols-2 my-10 lg:min-h-[600px] gap-10'>
