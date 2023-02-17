@@ -19,32 +19,9 @@ function Product() {
    return (
       <>
          <Helmet>
-            {/* <title>{product?.title}</title>
+            <title>{product?.title}</title>
             <meta name='description' content={`${product?.description} | aubess.eu`} />
-            <link rel='cononical' href={`/product/${product?.slug}`} /> */}
-            {/* <meta property='og:title' content={product?.title} />
-        <meta
-          property='og:description'
-          content={`${product?.description} | aubess.eu`}
-        />
-        <meta property='og:image' content={`https://aubess.eu/${imageSEO}`} />
-        <meta property='og:url' content={`/product/${product?.slug}`} /> */}
-
-            {/* facebook */}
-            <meta property='og:type' content='website' />
-            <meta property='og:url' content={`https://aubess.eu/product${product?.slug}`} />
-            <meta property='og:title' content={product.title} />
-            <meta property='og:description' content={product.title} />
-            <meta property='og:image' content='https://aubess.eu/slide-1.png' />
-            <meta property='og:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
-
-            {/* <!-- Twitter --> */}
-            <meta property='twitter:card' content='summary_large_image'></meta>
-            <meta property='twitter:url' content={`https://aubess.eu/product${product?.slug}`}></meta>
-            <meta property='twitter:title' content={product.title}></meta>
-            <meta property='twitter:description' content={product.title}></meta>
-            <meta property='twitter:image' content='http://aubess.eu/slide-1.png'></meta>
-            <meta property='twitter:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
+            <link rel='cononical' href={`/product/${product?.slug}`} />
          </Helmet>
 
          <div className='px-2 md:px-8 xl:px-0 xl:pt-10 max-w-7xl xl:mx-auto grid grid-cols-1 md:grid-cols-2 my-10 lg:min-h-[600px] gap-10'>
