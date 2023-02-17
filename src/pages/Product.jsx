@@ -34,7 +34,7 @@ function Product() {
             <meta property='og:type' content='website' />
             <meta property='og:url' content={`https://aubess.eu/product${product?.slug}`} />
             <meta property='og:title' content={product.title} />
-            <meta property='og:description' content={product.description} />
+            <meta property='og:description' content={product.title} />
             <meta property='og:image' content='https://aubess.eu/slide-1.png' />
             <meta property='og:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
 
@@ -42,7 +42,7 @@ function Product() {
             <meta property='twitter:card' content='summary_large_image'></meta>
             <meta property='twitter:url' content={`https://aubess.eu/product${product?.slug}`}></meta>
             <meta property='twitter:title' content={product.title}></meta>
-            <meta property='twitter:description' content={product.description}></meta>
+            <meta property='twitter:description' content={product.title}></meta>
             <meta property='twitter:image' content='http://aubess.eu/slide-1.png'></meta>
             <meta property='twitter:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
          </Helmet>
