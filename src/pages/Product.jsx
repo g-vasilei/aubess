@@ -31,7 +31,10 @@ function Product() {
           property='og:description'
           content={`${product?.description} | aubess.eu`}
         />
-        <meta property='og:image' content={`${product?.img[0]}`} />
+        <meta
+          property='og:image'
+          content={product.img && `${product?.img[0]}`}
+        />
         <meta property='og:url' content={`/product/${product?.slug}`} />
       </Helmet>
 
