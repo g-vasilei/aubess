@@ -34,20 +34,14 @@ function Product() {
             <meta property='og:type' content='website' />
             <meta property='og:url' content={`https://aubess.eu/product${product?.slug}`} />
             <meta property='og:title' content={product.title} />
-            <meta
-               property='og:description'
-               content='With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!'
-            />
+            <meta property='og:description' content={product.description} />
             <meta property='og:image' content='https://aubess.eu/slide-1.png'></meta>
 
             {/* <!-- Twitter --> */}
             <meta property='twitter:card' content='summary_large_image'></meta>
-            <meta property='twitter:url' content='https://metatags.io/'></meta>
-            <meta property='twitter:title' content='Meta Tags — Preview, Edit and Generate'></meta>
-            <meta
-               property='twitter:description'
-               content='With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!'
-            ></meta>
+            <meta property='twitter:url' content={`https://aubess.eu/product${product?.slug}`}></meta>
+            <meta property='twitter:title' content={product.title}></meta>
+            <meta property='twitter:description' content={product.description}></meta>
             <meta property='twitter:image' content='https://aubess.eu/slide-1.png'></meta>
          </Helmet>
 
