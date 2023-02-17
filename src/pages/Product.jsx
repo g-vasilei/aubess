@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import data from '../Products/data';
 import { categoryValue } from '../utils/category';
 import { Helmet } from 'react-helmet-async';
-import imageSEO from '../assets/slider/slide-1';
+import imageSEO from '../assets/slider/slide-1.png';
 
 function Product() {
   const params = useParams();
