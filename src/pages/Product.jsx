@@ -44,6 +44,7 @@ function Product() {
             <meta property='twitter:title' content={product.title}></meta>
             <meta property='twitter:description' content={product.description}></meta>
             <meta property='twitter:image' content='http://aubess.eu/slide-1.png'></meta>
+            <meta property='twitter:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
          </Helmet>
 
          <div className='px-2 md:px-8 xl:px-0 xl:pt-10 max-w-7xl xl:mx-auto grid grid-cols-1 md:grid-cols-2 my-10 lg:min-h-[600px] gap-10'>
