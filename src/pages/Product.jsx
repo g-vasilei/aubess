@@ -35,7 +35,7 @@ function Product() {
             <meta property='og:url' content={`https://aubess.eu/product${product?.slug}`} />
             <meta property='og:title' content={product.title} />
             <meta property='og:description' content={product.description} />
-            <meta property='og:image' content='http://aubess.eu/slide-1.png'></meta>
+            <meta property='og:image:secure_url' content='https://aubess.eu/slide-1.png'></meta>
 
             {/* <!-- Twitter --> */}
             <meta property='twitter:card' content='summary_large_image'></meta>
