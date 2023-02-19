@@ -53,7 +53,7 @@ function Footer() {
                   </li>
                </ul>
             </div>
-            <div>
+            <div className='xl:flex xl:flex-col  xl:items-center'>
                <h3 className='text-xl font-bold text-gray-700'>Links</h3>
                <ul className='text-gray-400 mt-4 flex flex-col gap-1 text-md'>
                   <li>
@@ -63,9 +63,9 @@ function Footer() {
                   </li>
                </ul>
             </div>
-            <div>
-               <h3 className='text-xl font-bold text-gray-700'>Apps</h3>
-               <div className='flex-col items-center justify-start gap-y-2.5'>
+            <div className='xl:flex xl:flex-col xl:items-end'>
+               <h3 className='text-xl font-bold text-gray-700 xl:translate-x-[-43px]'>Apps</h3>
+               <div className='flex flex-col items-start justify-start gap-y-2.5'>
                   <a
                      href='https://play.google.com/store/apps/details?id=com.tuya.smart'
                      className='flex items-center gap-x-2 mt-4'
