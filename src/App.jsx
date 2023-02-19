@@ -50,6 +50,10 @@ function App() {
                element: <AboutUs />,
             },
             {
+               path: '/not-found',
+               element: <NotFound />,
+            },
+            {
                path: '*',
                element: <NotFound />,
             },

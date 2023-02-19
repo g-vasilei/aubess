@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import data from '../Products/data'
 import { categoryValue } from '../utils/category'
 import { Helmet } from 'react-helmet-async'
@@ -13,8 +13,11 @@ function Product() {
    const [selectedImg, setSelectedImg] = useState(0)
 
    useEffect(() => {
+      //console.log(products.includes(slug))
       setProduct(products?.find((currentProduct) => currentProduct.slug === slug))
    }, [slug])
+
+   if (!product) return <Navigate to='/not-found'></Navigate>
 
    return (
       <>
